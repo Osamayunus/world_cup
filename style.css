@@ -1,0 +1,385 @@
+    /**********
+     CSS Styles
+    **************/
+    body {
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Main-part {
+        margin: 40px 60px 0 60px;
+    }
+
+    .Top-parts {
+        width: 100%;
+        height: 500px;
+        border-radius: 1.5em;
+    }
+
+    .View {
+        margin-top: 20px;
+    }
+
+    .Go-live {
+        text-decoration: none;
+        padding: 10px 30px;
+        background-image: linear-gradient(red, red);
+        color: white;
+        border-radius: 2px;
+    }
+
+    .Blog {
+        color: black;
+        width: 6cm;
+        height: 40px;
+        display: inline-block;
+        border-radius: 3px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 20px;
+        background-image: linear-gradient(red, red);
+    }
+
+    .button {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+        width: 6cm;
+        height: 40px;
+        display: inline-block;
+        border-radius: 3px;
+        margin: 10px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #button-items {
+        width: 6.6cm;
+        height: 6.5cm;
+        background-color: black;
+        padding-left: .1cm;
+        padding-top: 3px;
+        border-radius: 5px;
+    }
+
+    .Last-Part {
+        color: white;
+        text-align: center;
+        margin: 40px 60px 0 60px;
+        padding-top: 60px;
+    }
+
+    .footer {
+        color: rgba(93, 101, 108, 0.916);
+    }
+
+    .footer1 {
+        padding: 30px;
+    }
+
+    .Last-Parts {
+        margin-top: 1.5cm;
+        width: 100%;
+        height: 300px;
+        background-color: black;
+    }
+
+    .hour-padding {
+        padding-left: 15px;
+    }
+
+    .Span-item {
+        margin-top: 20px;
+    }
+
+    .Transfer-decoration {
+        display: inline-block;
+        border-radius: 4px;
+        width: 3.6cm;
+        height: 25px;
+        text-align: center;
+        color: black;
+        border: 2px solid rgba(75, 73, 73, 0.712);
+        text-decoration: none;
+    }
+
+    /**************
+ Styles for PAD
+     **************/
+    @media only screen and (max-width: 1079px) and (min-width:810px) {
+        .invisible {
+            display: none;
+        }
+
+        .Matches-Flags {
+            margin-left: 20px;
+            display: flex;
+        }
+
+        .Upcoming-Matches-Middle-part {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .padding {
+            margin: 0 0 0 50px;
+        }
+
+        .View-button {
+            margin-top: 50px;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .top-part {
+            width: 50%;
+        }
+
+        .Top-Image-Size {
+            margin: 70px 20px 0px 15px;
+        }
+
+        .img-size {
+            width: 8cm;
+            height: 5cm;
+        }
+
+        .para-over {
+            height: 140px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #9d9993;
+            margin-bottom: 20px;
+        }
+
+        .Middle-part {
+            flex-wrap: wrap;
+        }
+
+        #button-items {
+            background-color: white;
+            display: flex;
+            padding-top: 3px;
+            width: 100%;
+            margin-bottom: 25px;
+            height: 2.5cm;
+            padding-left: .1cm;
+            border-radius: 5px;
+        }
+
+        .button {
+            border: 3px solid rgba(123, 120, 120, 0.297);
+            width: 6cm;
+            height: 35px;
+            display: inline-block;
+            border-radius: 13px;
+            margin: 10px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .Blog {
+            width: 6cm;
+            border: 3px solid linear-gradient(red, red);
+            display: inline-block;
+            height: 40px;
+            margin: 10px;
+            border-radius: 13px;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .Blogs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 17.2cm;
+            margin-left: -28px;
+        }
+
+        .blog-size {
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 2px solid rgba(133, 130, 130, 0.068);
+            width: 8cm;
+            padding: 10px 10px 10px 10px;
+        }
+
+        .padding1 {
+            margin: 0 10 px 0 10px;
+        }
+
+        .Upcoming-Matches {
+            width: 7.6cm;
+            padding: 25px 2px 0 13px;
+            text-align: center;
+            border: 2px solid rgba(124, 117, 117, 0.105);
+            border-radius: 7px;
+            margin: 10px 74px 30px 0;
+        }
+    }
+
+    /***********
+ Code for PC
+     ***********/
+    @media only screen and (min-width:1080px) {
+        .blog-size {
+            border-radius: 14px;
+            border: 2px solid rgba(134, 132, 132, 0.16);
+            margin: 0 22px 22px -1px
+        }
+
+        .Matches-Flags {
+            margin-left: 20px;
+            display: flex;
+        }
+
+        .Upcoming-Matches-Middle-part {
+            margin: 0px 10px 10px 10px;
+        }
+
+        .Upcoming-Matches {
+            margin: 0 0 20px 15px;
+            padding: 20px 15px 20px 0;
+            text-align: center;
+            border: 2px solid rgba(124, 117, 117, 0.105);
+            border-radius: 7px;
+        }
+
+        .Blogs {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .Upcoming-Matches-Middle-part {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .View-all {
+            display: none;
+        }
+
+        .View-button {
+            display: none;
+        }
+    }
+
+    .View-button {
+        margin-left: 283px;
+    }
+
+    /******************* 
+code for MOBILE VIEW
+        ****************/
+    @media only screen and (max-width:809px) {
+        .Top-parts {
+            align-items: center;
+            width: 100%;
+            margin-bottom: -45px;
+            height: 24cm;
+            flex-wrap: wrap;
+            margin-left: -3px;
+        }
+
+        .View {
+            display: none;
+        }
+
+        .invisible {
+            display: none;
+        }
+
+        .Middle-part {
+            flex-wrap: wrap;
+
+        }
+
+        .Blogs {
+            margin: 25px 0 25px 36px;
+        }
+
+        .Go-live {
+            display: inline-block;
+            height: 28px;
+            width: 100px;
+        }
+
+        .button {
+            border: 3px solid rgba(138, 141, 138, 0.171);
+        }
+
+        #button-items {
+            background-color: white;
+            margin: 0 0 0 65px;
+        }
+
+        .top-part {
+            margin: auto;
+        }
+
+        .Main-part {
+            margin: 40px 25px 0 25px;
+
+        }
+
+        .Top-Image-Size {
+            width: 7cm;
+            margin: 0 0 -24px 77px;
+        }
+
+        .img-size {
+            width: 347px;
+            height: auto;
+        }
+
+        .blog-size {
+            margin: 10px 0 28px -57px;
+            border-radius: 10px;
+            border: 2px solid rgba(133, 130, 130, 0.068);
+            width: 377px;
+            padding: 30px 0px 19px 27px
+        }
+
+        .para-over {
+            height: 140px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #9d9993;
+            margin-bottom: 20px;
+        }
+
+        .Matches-Flags {
+            margin: 25px -52px 10px 74px;
+            display: flex;
+
+        }
+
+        .Upcoming-Matches {
+            width: 388px;
+            padding: 25px 2px 0 13px;
+            text-align: center;
+            border: 2px solid rgba(124, 117, 117, 0.105);
+            border-radius: 7px;
+            margin: 0px 0 35px -38px;
+            padding: 10px 6px 10px 10px
+        }
+
+        .Upcoming-Matches-Middle-part {
+            margin: 25px 0 25px 36px;
+
+        }
+
+        .Span-item {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .Last-Parts {
+            height: 100%;
+        }
+    }
